@@ -1,0 +1,10 @@
+Building the Source
+
+These instructions assume sbuilder is checked out in c:\dev\sbuilder
+
+Start the Qt command prompt
+cd c:\dev
+mkdir sbuilder-build
+cd sbuilder-build
+qmake ..\sbuilder\src\sbuilder.pro
+make
